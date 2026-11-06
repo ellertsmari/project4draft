@@ -1,0 +1,7 @@
+# Deny everything by default so a plaintext file can never be committed by accident
+*
+!.gitignore
+!*.age
+!recipient.txt
+!README.md
+!storeKeys.py
